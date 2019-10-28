@@ -3,8 +3,8 @@ script to match hashcat cracked file to the username of NTLM hashes file
 
 python hashcatmatch.py [DC-Hashes file] [cracked file from hashcat]
 
-# pylm
+# lm-info
 
-To check if users are stored in LM Hash format; save the DC Hash file to "DC-Hashes.txt"
+To check if users are stored in LM Hash format; use secretsdump to extract hashes
 
-python pylm.py 
+python lm-info.py [DC-Hashes.ntds from secretsdump]
