@@ -18,3 +18,6 @@ python userdes.py [extracted dump with windapsearch] > user-description
 # Analyzing
 
 python udeslyze.py [user-description] [company name i.e. microsoft]
+
+# Extracting user:group from Windapsearch.py output
+python enumgroups.py allinfo
